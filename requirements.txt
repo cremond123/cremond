@@ -1,0 +1,14 @@
+numpy
+pandas
+faiss-cpu  # or faiss-gpu if you're using GPU
+sentence-transformers
+transformers
+torch
+tensorflow
+tf-keras
+datasets
+tqdm
+streamlit
+langchain-community
+langchain-text-splitters
+streamlit-option-menu
