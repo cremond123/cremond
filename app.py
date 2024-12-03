@@ -57,7 +57,7 @@ def main_app():
             st.subheader("검색 필터")
 
             # 발행연도와 발행연월 리스트 정의
-            years = ['2019', '2020', '2021', '2022', '2023', '2024']
+            years = ['2017','2018','2019', '2020', '2021', '2022', '2023', '2024']
             year_filter = st.multiselect("발행연도", options=years, default=years)
 
             # # 발행연월 필터 (여러 개 선택 가능)
@@ -115,6 +115,7 @@ def main_app():
                             for _, row in results_df.iterrows():
                                 # st.write(f"**발행연도**: {row['발행연도']}, **발행월**: {row['발행연월']}, **페이지**: {row['페이지']}")
                                 st.write(f"**발행연도**: {row['발행연도']}, **발행월**: {row['발행월']}, **페이지**: {row['페이지수']}")
+                                st.write(f"**기사제목**: {row['기사제목']}")
                                 st.write(f"**내용**: {row['processed']}")
                                 st.write(f"**유사도**: {row['유사도']}")
                                 st.write("-" * 50)
