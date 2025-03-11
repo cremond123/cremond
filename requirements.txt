@@ -13,8 +13,8 @@ datasets==2.14.4
 tqdm==4.66.1
 streamlit==1.25.0
 
-langchain-community==0.3.19
-langchain-text-splitters==0.3.6
+langchain-community
+langchain-text-splitters
 
 streamlit-option-menu==0.4.0
 
