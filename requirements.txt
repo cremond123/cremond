@@ -11,7 +11,7 @@ tensorflow==2.14.0
 
 datasets==2.14.4
 tqdm==4.66.1
-streamlit==1.25.0
+streamlit==1.40.0
 
 langchain-community
 langchain-text-splitters
