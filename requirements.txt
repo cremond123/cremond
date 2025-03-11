@@ -2,7 +2,7 @@ numpy==1.25.2
 pandas==2.1.1
 faiss-cpu==1.7.4
 
-sentence-transformers==2.2.2
+sentence-transformers==2.2.4
 transformers==4.33.3
 
 torch==2.1.0
